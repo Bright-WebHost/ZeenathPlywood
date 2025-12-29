@@ -10,7 +10,7 @@ export default function Video() {
             <section className="video-one">
                 <div className="container">
                     <div className="video-one__inner">
-                        <div className="video-one__shape-1"></div>
+                        {/* <div className="video-one__shape-1"></div> */}
                         <div className="video-one__bg"
                             style={{ backgroundImage: 'url(assets/images/backgrounds/198.webp)' }} ></div>
 
