@@ -15,7 +15,7 @@ export default function Work() {
                     </div>
                     <div className="row">
                         {/*Work Process Single Start*/}
-                        <div className="col-xl-3 col-lg-6 col-md-6">
+                        <div className="col-xl-3 col-lg-6 col-md-6 col-6">
                             <div className="work-process__single">
                                 <div className="work-process__icon">
                                     <span className="icon-measure-tape"></span>
@@ -26,7 +26,7 @@ export default function Work() {
                         </div>
                         {/*Work Process Single End*/}
                         {/*Work Process Single Start*/}
-                        <div className="col-xl-3 col-lg-6 col-md-6">
+                        <div className="col-xl-3 col-lg-6 col-md-6 col-6">
                             <div className="work-process__single">
                                 <div className="work-process__icon">
                                     <span className="icon-resistor"></span>
@@ -37,7 +37,7 @@ export default function Work() {
                         </div>
                         {/*Work Process Single End*/}
                         {/*Work Process Single Start*/}
-                        <div className="col-xl-3 col-lg-6 col-md-6">
+                        <div className="col-xl-3 col-lg-6 col-md-6 col-6">
                             <div className="work-process__single">
                                 <div className="work-process__icon">
                                     <span className="icon-hand-drill"></span>
@@ -48,7 +48,7 @@ export default function Work() {
                         </div>
                         {/*Work Process Single End*/}
                         {/*Work Process Single Start*/}
-                        <div className="col-xl-3 col-lg-6 col-md-6">
+                        <div className="col-xl-3 col-lg-6 col-md-6 col-6">
                             <div className="work-process__single">
                                 <div className="work-process__icon">
                                     <span className="icon-insulating-tape"></span>

@@ -2,6 +2,9 @@
 
 import { useState } from 'react';
 import { Phone, MessageCircle, Download } from 'lucide-react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+
 
 export default function SideButton() {
   const [isHovered, setIsHovered] = useState({
@@ -57,7 +60,8 @@ export default function SideButton() {
           className={`btn whatsapp ${isHovered.whatsapp ? 'hovered' : ''}`}
           aria-label="WhatsApp"
         >
-          <MessageCircle size={24} />
+          {/* <MessageCircle size={24} /> */}
+          <FontAwesomeIcon icon={faWhatsapp} style={{ fontSize: "26px", marginLeft:'-3px'}}/>
         </button>
 
         <button
@@ -75,7 +79,7 @@ export default function SideButton() {
       <style>{`
         .side-button-container {
           position: fixed;
-          right: 0;
+          right: -4px;
           top: 50%;
           transform: translateY(-50%);
           z-index: 100;
@@ -85,7 +89,7 @@ export default function SideButton() {
           display: flex;
           flex-direction: column;
           gap: 16px;
-          padding-right: 4px;
+          // padding-right: 4px;
         }
 
         @media (max-width: 768px) {
@@ -114,6 +118,7 @@ export default function SideButton() {
         .btn:hover {
           transform: scale(1.1);
           background: #d4b613;
+          color:#06A6A1;
         }
 
         .btn.hovered {

@@ -31,15 +31,15 @@ const swiperOptions = {
 const slides = [
     {
         desktopBg: 'assets/images/backgrounds/06.jpg',
-        mobileBg: 'assets/images/backgrounds/1.png', // Add your mobile image path
+        mobileBg: 'assets/images/backgrounds/1.webp', // Add your mobile image path
     },
     {
         desktopBg: 'assets/images/backgrounds/5.jpg',
-        mobileBg: 'assets/images/backgrounds/2.png', // Add your mobile image path
+        mobileBg: 'assets/images/backgrounds/2.webp', // Add your mobile image path
     },
     {
         desktopBg: 'assets/images/backgrounds/4.jpg',
-        mobileBg: 'assets/images/backgrounds/3.png', // Add your mobile image path
+        mobileBg: 'assets/images/backgrounds/3.webp', // Add your mobile image path
     }
 ]
 
