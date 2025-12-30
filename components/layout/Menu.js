@@ -134,6 +134,9 @@ export default function Menu() {
                     </ul>
                 </li>
                 <li>
+                    <Link href="brands">Brands</Link>
+                </li>
+                <li>
                     <Link href="contact">Contact</Link>
                 </li>
             </ul>
