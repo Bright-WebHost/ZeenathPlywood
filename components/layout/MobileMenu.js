@@ -68,6 +68,9 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                   </button>
                 </li>
                 <li>
+                    <Link href="brands" onClick={handleMenuItemClick}>Brands</Link>
+                </li>
+                <li>
                   <Link href="contact" onClick={handleMenuItemClick}>Contact</Link>
                 </li>
               </ul>
