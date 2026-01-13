@@ -84,7 +84,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
             </li>
             <li>
               <i className="fa fa-phone-alt"></i>
-              <Link href="tel:+919606260928" onClick={handleMenuItemClick}>+91 96 06 260928</Link>
+              <Link href="tel:+919606260928" onClick={handleMenuItemClick}>+91 9606260928</Link>
             </li>
           </ul>
           
