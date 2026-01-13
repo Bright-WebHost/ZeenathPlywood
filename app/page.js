@@ -23,7 +23,7 @@ export default function Home() {
             <Layout headerStyle={5} footerStyle={3}>
                 <SideButton/>
                 <Banner />
-                
+
                 <Services />
                 <About />
                 <Counter />

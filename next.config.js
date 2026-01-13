@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  output: 'export',          // enables static site
+  images: {
+    unoptimized: true,       // fixes next/image on shared hosting
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
