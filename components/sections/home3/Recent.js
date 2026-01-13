@@ -70,6 +70,13 @@ export default function Recent() {
                     </li>
                 </ul>
             </div>
+            <style>{`
+            @media(max-width:768px){
+                .recent-project__list-content .content {
+                    margin-left: 0;
+                }
+            }
+            `}</style>
         </section>
         {/*Recent Project End */}
 
